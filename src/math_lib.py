@@ -7,7 +7,7 @@ class simple_math_lib:
         return sum
 
     def multiply(*args):
-        sum = 0
+        sum = 1
         for num in args:
             sum = sum * num
         return sum

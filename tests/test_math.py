@@ -30,7 +30,7 @@ def test_multiply():
 def test_multiply_list():
     m = simple_math_lib
 
-    nums = [4,5,6]
+    nums = [2,3,4]
 
     expected = np.prod(nums)
     actual = m.multiply(*nums)
